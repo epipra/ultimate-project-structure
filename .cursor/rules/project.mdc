@@ -1,0 +1,15 @@
+---
+description: Project-wide conventions for Cursor
+globs:
+alwaysApply: true
+---
+
+# Project rules
+
+Canonical instructions live in `AGENTS.md` at repo root. Read and follow it.
+
+Quick reference:
+- Prefer editing existing files over creating new ones.
+- No premature abstraction; match the style of the file being edited.
+- Write tests for new behavior and run the suite before calling a change done.
+- Never commit secrets or `.env` files.

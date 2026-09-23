@@ -1,0 +1,9 @@
+# Windsurf rules
+
+Canonical instructions live in AGENTS.md at repo root. Read and follow it.
+
+Quick reference:
+- Prefer editing existing files over creating new ones.
+- No premature abstraction; match existing style.
+- Write tests for new behavior and run the suite before calling a change done.
+- Never hardcode secrets or commit .env files.

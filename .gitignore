@@ -1,5 +1,26 @@
+# Personal / machine-local, never commit
+*.local*
+!*.example
 CLAUDE.local.md
 .claude/settings.local.json
-node_modules/
+
+# Runtime state written by hooks
+.claude/state/
+
+# Secrets
 .env
-.env.local
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build / dependency artifacts
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store

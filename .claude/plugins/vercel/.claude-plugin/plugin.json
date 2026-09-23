@@ -1,0 +1,6 @@
+{
+  "name": "vercel",
+  "version": "0.1.0",
+  "description": "Vercel deploy commands, a deploy-check agent, and the Vercel MCP server bundled together",
+  "author": { "name": "Your Team" }
+}
