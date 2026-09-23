@@ -1,0 +1,8 @@
+# CLAUDE.local.md (copy to CLAUDE.local.md; git-ignored)
+
+Personal overrides for this machine. Never committed.
+
+Examples:
+- Local paths or ports that differ from the shared setup.
+- Where your sandbox credentials live (not the credentials themselves).
+- Personal shorthand, reminders, temporary debugging notes.

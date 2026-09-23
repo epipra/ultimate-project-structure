@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Example PreToolUse hook for Bash — blocks obviously destructive commands.
+# PreToolUse hook for Bash: blocks obviously destructive commands (exit 2 = block).
 set -euo pipefail
 
 cmd=$(cat | jq -r '.tool_input.command // empty')
